@@ -1,0 +1,404 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+  
+  font-family: 'policetitres';
+  src: url('../polices/GIL.TTF');
+}
+@font-face{
+	font-family: 'Berlin';
+  src: url('../polices/BRLNSR.TTF');
+}
+
+
+@media (min-width: 1351px) {
+
+#logo1{
+	margin-top:6.5vh;
+	max-height:30vh;
+	margin-left:20vw;
+}
+#logo{
+	display:inline-block;
+	max-width:8.9vw;
+	border-radius:11px;	
+}
+
+article iframe {
+  border: 1px solid black;
+  max-width:150vw;
+  max-height:150vh;
+  display:block;
+  float:left;
+}
+
+
+article{
+	max-width:32vw;
+	margin-top:1em;
+	margin-left: 1vw;
+	border: dotted #068027;
+	border-radius:20px;
+	padding:2px;
+}
+article.beautemps{
+	background-image: url("../images/hommesoleil.png");
+	background-repeat:  no-repeat;
+	background-size:cover;
+}
+article.beautemps p{
+	background-color:#19211e;
+	opacity:0.8;
+	border-radius:10px;
+	max-width:60%;
+}
+
+
+article p a{
+	color: #12eb94; 
+	text-decoration:  underline; 
+	text-decoration-thickness: 2px;
+}
+
+section{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	margin-top:5vh;
+	margin-right:2vh;
+}
+
+article p{
+	color:white;
+	font-family:'Berlin';
+	font-size:1.1rem;
+	line-height:25px;
+	text-indent:0.4vw;
+}
+
+	
+
+
+nav{
+	position:fixed;
+	display:block;
+	width:11em;
+	left:0;
+	top:0;
+	border-right:solid 1px black;
+	height:100vh;
+	background-color:#9bffc2 ;
+	padding:0.5em;
+}
+
+
+nav a.bouton{
+	display:block;
+	box-shadow: 3px 4px 0px 0px transparent ;
+	background-color:#070f09;
+	border-radius:32px;
+	border:1px solid #000000;
+	cursor:pointer;
+	color:#12eb94;
+	font-family:'policetitres';
+	font-size:21px;
+	padding:19px 33px;
+	text-decoration:none;
+	margin-top:2vh;
+}
+
+nav a.bouton.ici{
+	box-shadow: 3px 4px 0px 0px #2e9c0f;
+
+}
+
+main{
+	margin-left:12em;
+	background-color:#19211e;
+	min-height:100vh;
+	max-height:none;
+}
+
+main h1{
+	Color:#9bffc2;
+	text-decoration:underline;
+	font-size:50px;
+	font-family:'policetitres';
+	text-align:center;
+	padding-top:2%;
+}
+main h2{
+	Color:#9bffc2;
+	font-size:35px;
+	font-family:'policetitres';
+	text-align:center;
+}
+
+
+}
+
+
+/*---------------------------------------------------------------------*/
+@media (min-width: 801px) 
+  and (max-width: 1350px) {
+
+#logo1{
+	margin-top:6.5vh;
+	max-height:30vh;
+	margin-left:10vw;
+	width:75vw;
+}
+#logo{
+	display:inline-block;
+	max-width:15vw;
+	border-radius:11px;	
+}
+
+article iframe {
+  border: 1px solid black;
+  max-width:150vw;
+  max-height:150vh;
+  display:block;
+  float:left;
+}
+
+
+article{
+	max-width:32vw;
+	margin-top:1em;
+	margin-left: 1vw;
+	border: dotted #068027;
+	border-radius:20px;
+	padding:2px;
+}
+article.beautemps{
+	background-image: url("../images/hommesoleil1350px.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+article.beautemps p{
+	background-color:#19211e;
+	opacity:0.8;
+	border-radius:10px;
+	max-width:60%;
+}
+
+
+article p a{
+	color: #12eb94; 
+	text-decoration:  underline; 
+	text-decoration-thickness: 2px;
+}
+
+section{
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	margin-top:5vh;
+	margin-right:2vh;
+	margin-left:8vh;
+}
+
+article p{
+	color:white;
+	font-family:'Berlin';
+	font-size:1.1rem;
+	line-height:25px;
+	text-indent:0.4vw;
+}
+
+	
+
+
+nav{
+	position:absolute;
+	display:block;
+	width:100%;
+	left:0;
+	top:0;
+	height:10%;
+	background-color:#9bffc2 ;
+	/*padding:0.5em;*/
+}
+
+
+nav a.bouton{
+	display:inline-block;
+	width:10.5vw;
+	box-shadow: 3px 4px 0px 0px transparent ;
+	background-color:#070f09;
+	border-radius:32px;
+	border:1px solid #000000;
+	cursor:pointer;
+	color:#12eb94;
+	font-family:'policetitres';
+	font-size:15px;
+	padding:10px 15px;
+	text-decoration:none;
+	margin-top:2vh;
+	margin-left:1%;
+}
+
+nav a.bouton.ici{
+	box-shadow: 3px 4px 0px 0px #2e9c0f;
+
+}
+
+main{
+	margin-top:5em;
+	background-color:#19211e;
+	min-height:100vh;
+	max-height:none;
+}
+
+main h1{
+	Color:#9bffc2;
+	text-decoration:underline;
+	font-size:50px;
+	font-family:'policetitres';
+	text-align:center;
+	padding-top:2%;
+}
+main h2{
+	Color:#9bffc2;
+	font-size:35px;
+	font-family:'policetitres';
+	text-align:center;
+}
+
+}
+
+
+/*---------------------------------------------------------------------*/
+
+@media (max-width: 800px) {
+
+#logo1{
+	margin-top:6.5vh;
+	max-height:30vh;
+	margin-left:10vw;
+	width:75vw;
+}
+#logo{
+	display:inline-block;
+	max-width:30vw;
+	border-radius:11px;	
+}
+
+
+article iframe {
+  border: 1px solid black;
+  max-width:150vw;
+  max-height:150vh;
+  display:block;
+  float:left;
+}
+
+
+article{
+	max-width:70vw;
+	margin-top:1em;
+	margin-left: 1vw;
+	border: dotted #068027;
+	border-radius:20px;
+	padding:2px;
+}
+article.beautemps{
+	background-image: url("../images/hommesoleil1350px.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:62vh;
+}
+article.beautemps p{
+	background-color:#19211e;
+	opacity:0.8;
+	border-radius:10px;
+	max-width:60%;
+}
+
+
+article p a{
+	color: #12eb94; 
+	text-decoration:  underline; 
+	text-decoration-thickness: 2px;
+}
+
+section{
+	display:grid;
+	grid-template-columns: 1fr;
+	margin-top:5vh;
+	margin-right:2vh;
+	margin-left:8vh;
+}
+
+article p{
+	color:white;
+	font-family:'Berlin';
+	font-size:1.1rem;
+	line-height:25px;
+	text-indent:0.4vw;
+}
+
+	
+
+
+nav{
+	position:absolute;
+	display:block;
+	width:100%;
+	left:0;
+	top:0;
+	height:45%;
+	background-color:#9bffc2 ;
+	/*padding:0.5em;*/
+}
+
+
+nav a.bouton{
+	display:block;
+	
+	box-shadow: 3px 4px 0px 0px transparent ;
+	background-color:#070f09;
+	border-radius:32px;
+	border:1px solid #000000;
+	cursor:pointer;
+	color:#12eb94;
+	font-family:'policetitres';
+	font-size:21px;
+	padding:19px 33px;
+	text-decoration:none;
+	margin-top:2vh;
+	margin-left:5vw;
+	margin-right:5vw;
+}
+nav a.bouton.ici{
+	box-shadow: 3px 4px 0px 0px #2e9c0f;
+
+}
+
+main{
+	margin-top:25.4em;
+	background-color:#19211e;
+	min-height:100vh;
+	max-height:none;
+}
+
+main h1{
+	Color:#9bffc2;
+	text-decoration:underline;
+	font-size:50px;
+	font-family:'policetitres';
+	text-align:center;
+	padding-top:2%;
+}
+main h2{
+	Color:#9bffc2;
+	font-size:35px;
+	font-family:'policetitres';
+	text-align:center;
+}
+
+}

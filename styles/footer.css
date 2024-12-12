@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+@media (min-width: 1351px) {
+	footer table thead td{
+	text-align:center;
+	text-decoration :underline solid black;
+	font-family:'policetitres';
+}
+
+footer table tbody tr th{
+	padding: 1rem;
+	font-family:'Berlin';
+	margin:1rem;
+}
+
+footer table tbody tr td{
+	padding: 1rem;
+	font-family:'Berlin';
+	margin:1rem;
+
+}
+footer table {
+	border: dotted #068027;
+	border-radius:30px;
+}
+.info{
+	padding:10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.address{
+	grid-column: 1;
+	grid-row: 1;
+	text-align : center;
+	font-family:'Berlin';
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	grid-column: 2;
+	grid-row: 1;
+	text-align : center;
+}
+
+footer{
+	margin-left: 12.09em;
+	background-color:#9bffc2;
+	
+	
+}
+
+footer p{
+	color:black;
+	font-family:'Berlin';
+}
+footer a{
+	color: black; 
+	text-decoration: underline; 
+	text-decoration-thickness: 2px;
+	border: dotted #068027;
+	border-radius:30px;
+}
+}
+@media (min-width: 801px) 
+  and (max-width: 1350px) {
+	  footer table thead tr td{
+	text-align:center;
+	text-decoration :underline solid black;
+	font-family:'policetitres';
+}
+
+footer table tbody tr th{
+	padding: 1rem;
+	font-family:'Berlin';
+	margin:1rem;
+}
+
+footer table tbody tr td{
+	padding: 1rem;
+	font-family:'Berlin';
+	margin:1rem;
+
+}
+footer table {
+	border: dotted #068027;
+	border-radius:30px;
+}
+.info{
+	padding:10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.address{
+	grid-column: 1;
+	grid-row: 1;
+	text-align : center;
+	font-family:'Berlin';
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	grid-column: 2;
+	grid-row: 1;
+	text-align : center;
+}
+
+footer{
+	margin-left: 0em;
+	width:100%;
+	background-color:#9bffc2;
+	
+	
+}
+
+
+footer p{
+	color:black;
+	font-family:'Berlin';
+}
+footer a{
+	color: black; 
+	text-decoration: underline; 
+	text-decoration-thickness: 2px;
+	border: dotted #068027;
+	border-radius:30px;
+}
+}
+
+@media (max-width: 800px) {
+		  footer table thead td{
+	text-align:center;
+	text-decoration :underline solid black;
+	font-family:'policetitres';
+}
+
+footer table tbody tr th{
+	padding: 1rem;
+	font-family:'Berlin';
+	margin:1rem;
+}
+
+footer table tbody tr td{
+	padding: 1rem;
+	font-family:'Berlin';
+	margin:1rem;
+
+}
+footer table {
+	border: dotted #068027;
+	border-radius:30px;
+}
+.info{
+	padding:10px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.address{
+
+	text-align : center;
+	font-family:'Berlin';
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+
+	text-align : center;
+}
+
+footer{
+	margin-left: 0em;
+	width:100%;
+	background-color:#9bffc2;
+	
+	
+}
+
+footer p{
+	color:black;
+	font-family:'Berlin';
+}
+footer a{
+	color: black; 
+	text-decoration: underline; 
+	text-decoration-thickness: 2px;
+	border: dotted #068027;
+	border-radius:30px;
+}
+
+}
+

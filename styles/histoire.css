@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+h3{
+	font-family: 'policetitres';
+	text-decoration:underline solid white;
+	color:#9bffc2;
+
+}
+
+
+section img {
+	float: right;
+	max-width: 90%;
+	width: 900px;
+	height: auto;
+	margin: 10px;
+	border-radius:12px;
+}
+
+main small a{
+	font-family:'Berlin';
+	color: #12eb94; 
+	text-decoration:  underline; 
+	text-decoration-thickness: 2px;
+}
+
+
+@media (max-width: 800px) {
+  section {
+
+    margin-top: 5vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+  }
+}
+@media (min-width: 801px) 
+  and (max-width: 1350px) {
+	 article{
+		 max-width:55vw;
+	 }
+}
